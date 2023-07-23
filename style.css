@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Makasar&display=swap');
-
-html,body{
-    width: 100%;
-    height: 100%;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body{
     background-color: #B5BF5A;
     margin: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #top{
@@ -17,71 +14,45 @@ body{
     margin-top: -1.5em;
     margin-bottom: -2em;
     width: 100%;
-}
-
-#title-name-two, #title-name{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    color: #854CB2;
-}
-
-#title-name-two{
-    font-weight: 200;
-    font-size: 1.5em;
-    margin-bottom: -3.6em;
-    color: #854CB2;
-    line-height: 0.87;
-}
-
-#title-name{
-    font-weight: 400;
-    font-size: 4em;
-}
-
-#menu{
-    position: absolute;
-    right: 0;
-    width: 50px;
     height: 100%;
-}
 
-#menu-two{
-    position: absolute;
-    right: 0px;
-    bottom: -130%;
-    width: 50px;
-    height: 80%;
-    margin-bottom: 70px;
-    display: flex;
-    flex-flow: column-reverse;
+    #menu{
+        position: absolute;
+        width: 100px;
+        height: 100%;
+        top: 2em;
+    }
+
+    #title-name, #title-name-two{
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+        color: #854CB2;
+    }
+
+    #title-name{
+        font-weight: 400;
+        font-size: 4em;
+    }
+
+    #title-name-two{
+        font-weight: 200;
+        font-size: 1.5em;
+        margin-bottom: -3.6em;
+        color: #854CB2;
+        line-height: 0.87;
+    }
     
-}
+    #social-media-icons-menu{
+        display: flex;
+        justify-content: center;
+        margin-top: -1em;
+    }
 
-#menu-icon, #menu-two-icon{
-    width: 30px;
-}
-
-#menu-icon{
-    position: sticky;
-    top: 10px;
-    margin-top: 24px;
-}
-
-#menu-two-icon{
-    transform: scaley(-1); 
-    position: sticky;
-    bottom: 10px;
-}
-
-.social-media-icons{
-    width: 50px;
-    padding: 5px;
-}
-
-#social-media-icons-id{
-    display: flex;
-    justify-content: center;
-    margin-top: -1em;
+    .social-media-icons{
+        width: 50px;
+        padding: 5px;
+    }
+    
 }
 
 .titles{
@@ -100,26 +71,26 @@ hr{
     display: grid;
     justify-content: center;
     margin-top: -3em;
-}
 
-.image-projects{
-    width: 500px;
-    padding: 3em;
-    margin: 0 auto;
-}
-
-.desc-projects{
-    text-align: center;
-    margin: 0 auto;
-    margin-top: -1em;
-    font-family: 'Noto Serif Makasar', serif;
-    width: 500px;
-}
-
-.title-projects{
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-    margin-top: -2em;
-    color: #854CB2;
-    font-size: 20px;
+    .image-projects{
+        width: 500px;
+        padding: 3em;
+        margin: 0 auto;
+    }
+    
+    .desc-projects{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: -1em;
+        font-family: 'Roboto Slab', serif;
+        width: 500px;
+    }
+    
+    .title-projects{
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+        margin-top: -2em;
+        color: #854CB2;
+        font-size: 20px;
+    }
 }
